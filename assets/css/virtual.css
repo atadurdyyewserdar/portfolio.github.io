@@ -1536,7 +1536,7 @@ a:hover, a:active {
     /* color: #EF3724; */
 }
 
-.btn-cv>a:hover {
+/* .btn-cv>a:hover {
     text-decoration: none; 
     color: white;
 }
@@ -1548,8 +1548,18 @@ a:hover, a:active {
 
 .btn-cv>a:visited {
     text-decoration: none; 
-}
+} */
 
-.btn-cv-link{
+/* .btn-cv-link{
     width: 100%;
+} */
+
+.btn-cv:hover>a:link{
+    color: white;
+}
+.btn-cv:hover>a:visited{
+    color: white;
+}
+.btn-cv:hover>a:hover{
+    color: white;
 }
